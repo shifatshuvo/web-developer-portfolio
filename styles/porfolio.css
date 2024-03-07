@@ -12,9 +12,9 @@ body {
   background-color: #fd6e0a;
   border: 0;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
-  padding:  15px 35px;
+  padding:  10px 25px;
 }
 
 /* nav styles */
@@ -22,6 +22,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title {
@@ -43,4 +44,23 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/* header related style */
+.header {
+  background-color: #fff8f3;
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+
+.banner .pro-pic {
+  width: 350px;
+}
+
+.banner-content {
+  
 }
